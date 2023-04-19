@@ -1,6 +1,9 @@
-#include <iostream>
+
 using namespace std;
 int main(){
-    cout<<"Adios Fernada"<<endl;
-    return 0;
-}
+    int integer = 999999;
+    float flt = 999999.999999;
+    char character = 'F';
+    bool boolean = false;
+};
+
