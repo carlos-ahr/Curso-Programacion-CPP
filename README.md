@@ -49,11 +49,13 @@ int main(void){
 Para la entrada y la salida de datos se usa la libreria `iostream`, esta libreria incluye 2 metodos en el espacio de nombre `std` los cuales son `cin` y `cout` para entrada y salida de datos respectivamente.
 
 Uso de `cin`
+
 ```cpp
 cin >> var; //Guarda el valor ingresado en var
 ```
 
 Uso de `cout`
+
 ```cpp
 cout << "Hola"; // Escribe en la terminal "Hola
 ```
@@ -69,7 +71,93 @@ Los tipos de datos simples son:
 1. Enteros (Integer -> `int`)
 2. Punto flotante o decimales (Floating point -> `float`)
 3. Caracteres (Character -> `char`)
-4. Vacio (Void -> `void`)
+4. Booleanos (Boolean -> `bool`)
+5. Vacio (Void -> `void`)
 
 ---
 
+## 19-04-2023
+
+### 1. Compuertas logicas
+
+- not -> `!`
+- or -> `||`
+- and -> `&&`
+
+### 2. Estructuras de control
+
+1. Si? `if`
+2. Si?, Si no `if else`
+3. Para `for`Mientras `while`
+4. Hacer mientras `do while`
+
+## 03-05-2023
+
+### COMPUERTAS
+
+- NOT `!`
+- OR `||`
+- AND `&&`
+
+```cpp
+!true       // evalua ta false
+!false      // evalua a true 
+```
+
+&& OPERATOR (and)
+
+| a     | b     | a && b |
+| ----- | ----- | ------ |
+| true  | true  | true   |
+| true  | false | false  |
+| false | true  | false  |
+| false | false | false  |
+
+|| OPERATOR (or)
+
+| a     | b     | a && b |
+| ----- | ----- | ------ |
+| true  | true  | true   |
+| true  | false | true   |
+| false | true  | true   |
+| false | false | false  |
+
+### ESTRUCTURAS DE CONTROL
+
+- if else
+- while
+- do while
+- for
+- switch
+
+### Operadores Aritmeticos
+
+- suma `+`
+- resa `-`
+- multiplicacion `*`
+- division `/`
+- residuo `%`
+
+- aumento `++`
+- decremento `--`
+
+### Operaadores de asignacion
+
+- igual a `=`
+- igual a la suma `=+`
+- igual a la resta `=-`
+- igual a la multiplicacion `=*`
+- igual a la division `=/`
+
+```python
+acumulador = 30
+acumulador =+ 10
+```
+
+### Operadores de Comparación
+
+- menor que `<`
+- mayor que `>`
+- menor o igual que `<=`
+- mayor o igual que `>=`
+- igual que `==`
